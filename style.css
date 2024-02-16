@@ -264,6 +264,7 @@ header {
   }
 
   .result-container {
+    margin-top: 1.5rem;
     width: 100%;
     padding: 1.5rem;
   }
