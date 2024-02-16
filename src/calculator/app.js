@@ -9,7 +9,7 @@ export const App = ( elementID ) => {
 
     //Renderizar HTML
     (() => {
-        const app = document.createElement('div');
+        const app = document.createElement('main');
         app.classList.add('container');
         app.innerHTML = html;
         document.querySelector(elementID).append(app);
